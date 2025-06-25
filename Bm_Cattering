@@ -1,0 +1,93 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BM Catering</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <heade>
+    <div class="navbar">
+    <div class="logo">BM CATERING</div>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </div>
+
+  <div class="nav-links" id="navMenu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("navMenu");
+      menu.classList.toggle("active");
+    }
+  </script>
+ 
+   
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>
+        <b>Welcome To BM Catering service</b></h1>
+      <p>Hospitality and Taste to Remember</p>
+    </div>
+  </section>
+  <section id="about">
+    <div style="text-align:center">
+     <h1 style="color:orange;font-familiy:'Pacifico',cursive;">About BM Kitchen</h1>
+     <img src="restaurant2.jpeg" width="100%">
+    <p>
+      <strong>BM Kitchen</strong> is a proudly Tanzanian catering and event service company, known for delivering excellence in every bite and every event.
+    </p>
+    <p>
+      With years of experience and a passion for hospitality, we specialize in providing clean, professional, and high-quality services tailored to your needs.
+    </p>
+    <p>
+      From unforgettable weddings to seamless corporate events, our team is dedicated to making your moments flavorful, elegant, and stress-free.
+    </p>
+    <p>
+      Whether it’s catering, equipment rental, or event planning — <strong>BM Kitchen</strong> is your trusted partner.
+    </p></div>
+</section>
+  <section id="services">
+    <div class="example">
+    <a href="catering.html" >
+    <h2 style="color:orange" >Catering</h2>
+    </a>
+    <img src="hero.jpg" alt="Catering Service" href="#catering.html">
+    
+  </section>
+
+  
+  
+<section href="service">
+  <a href="Wedding.html">
+    <h2 style="color:orange">Wedding / Event Planning</h2>
+    </a>
+    <img src="wed.jpg" alt="Event Planning">
+  </section>
+  <section href="service" id="">
+     <a href="vessels.html">
+    <h2 style="color:orange">Food serving vessels</h2></a>
+   
+    <img src="vessels.jpg" alt="Event Planning">
+  </section></div>
+  <section class="service">
+    <a href="restaurant.html">
+    <h2 style="color:orange">Restaurant service</h2></a>
+    <img src="restaurant1.jpg" alt="Event Planning">
+  </section>
+  <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Oysterbay%20police%20station,%20Dar%20Es%20Salaam,Tanzania+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.mapsdirections.info/calcular-la-población-en-un-mapa">Mapa de población</a></iframe></div>
+    <section id="contact">
+      <h2>contact Us</h2>
+      <p><b>contact us on:</b></p>
+      <p>Email:<i>bmkitchen.tz@gmail.com</i></p>
+      <p>mobile:<i>0761234988</i></p>
+  
+</body>
+</html>
